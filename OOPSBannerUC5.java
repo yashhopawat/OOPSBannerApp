@@ -5,13 +5,13 @@ public class OOPSBannerUC5 {
         // Array declaration + initialization combined
         String[] banner = {
 
-                String.join(" ", "*****", "*   *", "*   *", "*   *", "*****"),
-                String.join(" ", "*   *", "*   *", "*   *", "*   *", "*   *"),
-                String.join(" ", "*   *", "*   *", "*   *", "*   *", "*   *"),
-                String.join(" ", "*   *", "*   *", "*   *", "*   *", "*   *"),
-                String.join(" ", "*****", "*   *", "*   *", "*   *", "*****"),
-                String.join(" ", "*", "****", "****", "*"),
-                String.join(" ", "*****", "*", "*", "*****")
+                String.join(" ", "*****", "*****", "*****", "*****"),
+                String.join(" ", "*   *", "*   *", "*   *", "*    "),
+                String.join(" ", "*   *", "*   *", "*****", "*    "),
+                String.join(" ", "*   *", "*   *", "*    ", "*****"),
+                String.join(" ", "*   *", "*   *", "*    ", "    *"),
+                String.join(" ", "*   *", "*   *", "*    ", "    *"),
+                String.join(" ", "*****", "*****", "*    ", "*****")
         };
 
         // Enhanced for loop to print banner
